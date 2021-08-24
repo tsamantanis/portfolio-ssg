@@ -18,7 +18,7 @@
     ├── data.json
 ├── generate.go
 ├── styles.css
-└── template.tmpl
+└── portfolio.tmpl
 ```
 
 ## Getting Started
