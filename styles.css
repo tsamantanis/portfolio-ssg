@@ -1,0 +1,167 @@
+
+body, html, .container {
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    min-height: 90vh;
+    min-width: 93.2vw;
+    max-width: 93.2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.content {
+    max-width: 55vw;
+    margin: auto;
+    padding: 3rem;
+}
+
+code, a, button, h1, h2, h3, h4, h5, h6, span, p {
+
+}
+
+h1 {
+
+}
+
+.profile-img-container {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links {
+    max-width: 300px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-link {
+    transition: all .4s ease-out;
+    cursor: pointer;
+}
+
+.social-link .social-svg {
+    width: 4.0rem;
+    opacity: 0.7;
+    height: 4.0rem;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.project-container {
+    padding: 1rem;
+    display: flex; 
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-container img {
+    max-height: 150px;
+    width: auto;
+}
+
+.project-details {
+    margin-left: 2rem;
+}
+
+.project-name {
+
+}
+
+.project-details a:first-child {
+    margin-left: 0;
+}
+
+.project-details a {
+    margin-left: 1rem;
+}
+
+.project-details a:hover {
+
+}
+
+.publication-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.publication-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.publication-container img {
+    max-height: 150px;
+    width: auto;
+    max-width: 200px;
+}
+
+.publication-title {
+
+}
+
+.publication-details {
+
+}
+
+.publications a {
+    flex: 1;
+}
+
+.publications a:hover {
+    cursor: pointer;
+}
+
+.publications a:hover .publication-container img {
+
+}
+
+.publications a:active {
+
+}
+
+.about a {
+    margin-right: 1rem;
+}
