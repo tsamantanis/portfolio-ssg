@@ -137,10 +137,10 @@ func createManyHTML(directory string) (int16, float64) {
 		path := directory + "/" + file.Name()
 		stat, errStat := os.Stat(path)
 		handleError(errStat)
-		if !stat.IsDir() && (strings.SplitN(stat.Name(), ".", 2)[1] == "txt" || strings.SplitN(stat.Name(), ".", 2)[1] == "md") {
+		if !stat.IsDir() && (strings.SplitN(stat.Name(), ".", 2)[1] == "json") {
 			counter++
 			data := loadFileContent(path)
-			c, s := createHTML(directory, strings.SplitN(file.Name(), ".", 2)[0], "template.tmpl", data)
+			c, s := createHTML(directory, strings.SplitN(file.Name(), ".", 2)[0], "portfolio.tmpl", data)
 			counter += c
 			size += s
 		} else if stat.IsDir() {
@@ -149,7 +149,7 @@ func createManyHTML(directory string) (int16, float64) {
 			boldMagenta.Print("Warning:")
 			fmt.Print(" File ")
 			boldWhite.Print(stat.Name())
-			fmt.Println(" does not match type .txt or .md")
+			fmt.Println(" does not match type .json")
 		}
 	}
 	return counter, size
