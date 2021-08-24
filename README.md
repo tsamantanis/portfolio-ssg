@@ -37,7 +37,7 @@ To generate a retro style portfolio from a single file use:
 $ go run generate.go --file=PATH_TO_FILE 
 ```
 
-replacing `PATH_TO_FILE` with the relative path to a `.json` file of your choosing
+replacing `PATH_TO_FILE` with the relative path to a `.json` file of your choosing. Place your `.json` file within the `data` directory for optimal results.
 
 ### Folder 📂
 To generate multiple portfolio files from a directory use:
