@@ -6,7 +6,8 @@
 
 1. [Project Structure](#project-structure)
 2. [Getting Started](#getting-started)
-3. [Live Example](#live-example)
+3. [Styles](#styles)
+4. [Live Example](#live-example)
 
 ## Project Structure
 
