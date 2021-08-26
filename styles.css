@@ -29,20 +29,15 @@ html {
 }
 
 .container {
-    min-height: 90vh;
-    min-width: 93.2vw;
-    max-width: 93.2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
 }
 
 .content {
-    max-width: 55vw;
-    margin: auto;
-    padding: 3rem;
+    flex: 12;
+    font-size: 1.2rem;
 }
 
 code, a, button, h1, h2, h3, h4, h5, h6, span, p {
