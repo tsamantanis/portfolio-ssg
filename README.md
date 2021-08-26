@@ -6,7 +6,8 @@
 
 1. [Project Structure](#project-structure)
 2. [Getting Started](#getting-started)
-3. [Live Example](#live-example)
+3. [Styles](#styles)
+4. [Live Example](#live-example)
 
 ## Project Structure
 
@@ -17,33 +18,32 @@
     ├── data.json
 ├── generate.go
 ├── styles.css
-└── template.tmpl
+└── portfolio.tmpl
 ```
 
 ## Getting Started
 
-1. Visit [https://github.com/tsamantanis/portfolio-ssg](https://github.com/tsamantanis/portfolio-ssg) and create a new repository named `portfolio-ssg`.
-2. Run each command line-by-line in your terminal to set up the project:
+Run each command line-by-line in your terminal to set up the project:
 
 ```bash
-$ git clone git@github.com:tsamantanis/portfolio-ssg.git
-$ cd portfolio-ssg
+git clone git@github.com:tsamantanis/portfolio-ssg.git
+cd portfolio-ssg
 ```
 
 ### Single File 📄
 To generate a retro style portfolio from a single file use:
 
 ```bash
-$ go run generate.go --file=PATH_TO_FILE 
+go run generate.go --file=PATH_TO_FILE 
 ```
 
-replacing `PATH_TO_FILE` with the relative path to a `.json` file of your choosing
+replacing `PATH_TO_FILE` with the relative path to a `.json` file of your choosing. Place your `.json` file within the `data` directory for optimal results.
 
 ### Folder 📂
 To generate multiple portfolio files from a directory use:
 
 ```bash
-$ go run generate.go --dir=PATH_TO_DIRECTORY 
+go run generate.go --dir=PATH_TO_DIRECTORY 
 ```
 
 replacing `PATH_TO_DIRECTORY` with the relative path to a directory which contains `.json` files. The directory can contain sub-directories.

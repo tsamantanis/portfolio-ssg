@@ -1,3 +1,24 @@
+/* Responsiveness */
+
+@media only screen and (min-width: 500px) {
+    .content {
+        max-width: 75vw !important;
+    }
+}
+
+@media only screen and (min-width: 675px) {
+    .content {
+        max-width: 95vw !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .content {
+        max-width: 55vw !important;
+    }
+}
+
+/* Base classes */
 
 body, html, .container {
     margin: 0;
