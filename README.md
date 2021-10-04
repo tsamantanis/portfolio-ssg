@@ -50,7 +50,7 @@ replacing `PATH_TO_DIRECTORY` with the relative path to a directory which contai
 
 ### Styles 🎨
 
-You can edit the `styles.css` file to add your own styles. View an example of a retro styled portfolio page [here](https://tsamantanis.github.io/retro-portfolio/)
+You can edit the `styles.css` file to add your own styles. View an example of a retro styled portfolio page [here](https://tsamantanis.github.io/)
 
 ## Live Example
 
